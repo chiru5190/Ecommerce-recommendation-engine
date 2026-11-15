@@ -1,0 +1,150 @@
+{
+  "raw_rows_checked": 20000,
+  "flagged_rows": 280,
+  "flag_counts": {
+    "description_price_differs_from_discounted_price": 280,
+    "product_url_pid_mismatch": 0,
+    "malformed_product_url": 0,
+    "no_substantive_title_description_overlap": 0
+  },
+  "policy": "Review flags only. No replacement descriptions/prices; no automatic semantic exclusions.",
+  "limitations": "Rule-based screening is not proof of semantic correctness or exhaustive corruption detection.",
+  "raw_sha256": "56f8f699c9e847356666c2eab3c3ab1244340f6a98ad08e39ea2199ebe993ad1",
+  "sample_sha256": "397b8999c9bf9729f6e400b4212777f9b99865cadac4ec351c344d5037f2ff3b",
+  "catalogs": {
+    "sample": {
+      "catalog_rows": 5000,
+      "checked_fields": [
+        "name",
+        "description",
+        "category",
+        "category_path",
+        "price",
+        "image_url",
+        "source_pid",
+        "rating",
+        "quality_flags",
+        "source_row_number"
+      ],
+      "field_mismatch_counts": {
+        "name": 0,
+        "description": 0,
+        "category": 0,
+        "category_path": 0,
+        "price": 0,
+        "image_url": 0,
+        "source_pid": 0,
+        "rating": 0,
+        "quality_flags": 0,
+        "source_row_number": 0
+      },
+      "mismatched_product_count": 0,
+      "unknown_ids": [],
+      "duplicate_ids": 0,
+      "mismatches": [],
+      "passed": true
+    },
+    "all": {
+      "catalog_rows": 19920,
+      "checked_fields": [
+        "name",
+        "description",
+        "category",
+        "category_path",
+        "price",
+        "image_url",
+        "source_pid",
+        "rating",
+        "quality_flags",
+        "source_row_number"
+      ],
+      "field_mismatch_counts": {
+        "name": 0,
+        "description": 0,
+        "category": 0,
+        "category_path": 0,
+        "price": 0,
+        "image_url": 0,
+        "source_pid": 0,
+        "rating": 0,
+        "quality_flags": 0,
+        "source_row_number": 0
+      },
+      "mismatched_product_count": 0,
+      "unknown_ids": [],
+      "duplicate_ids": 0,
+      "mismatches": [],
+      "passed": true
+    }
+  },
+  "semantic": {
+    "positions_checked": 5000,
+    "canonical_ids_match": true,
+    "id_position_mapping_matches": true,
+    "index_vectors_match_embeddings": true,
+    "fingerprint": "ded107b99dd0855974bad9eab5c9ee8fbf9e862df1238f251c21264f102c9d03",
+    "passed": true
+  },
+  "traced_products": {
+    "015b36dc0234a0a3ef68668e7cfc9c1c": {
+      "raw_index_zero_based": 2249,
+      "source_data_record_number_one_based": 2250,
+      "raw_fields": {
+        "uniq_id": "015b36dc0234a0a3ef68668e7cfc9c1c",
+        "pid": "BRAEB2S8ZUHV9YEA",
+        "product_name": "Tia by Ten on Ten Siana Women's T-Shirt Bra",
+        "description": "Tia by Ten on Ten Siana Women's T-Shirt Bra\n                         Price: Rs. 399\n\t\t\t\t\n\t\t\tGive your women spirit a boost by wearing this seamless push up bra brought to you from the house of Tia by Ten on Ten and feel the coziness of the cotton mix fibre as your skin is not only breathing easily but also looking sensuous.\nGive your women spirit a boost by wearing this seamless push up bra brought to you from the house of Tia by Ten on Ten and feel the coziness of the cotton mix fibre as your skin is not only breathing easily but also looking sensuous.",
+        "product_category_tree": "[\"Clothing >> Women's Clothing >> Lingerie, Sleep & Swimwear >> Bras >> Tia by Ten on Ten Bras\"]",
+        "discounted_price": "399",
+        "image": "[\"http://img6a.flixcart.com/image/bra/m/g/h/utbra-8-pnk-tia-by-ten-on-ten-38a-original-imaeb2fwyuh8gqpx.jpeg\", \"http://img5a.flixcart.com/image/bra/m/g/h/utbra-8-pnk-tia-by-ten-on-ten-38a-original-imaeb2fwyuh8gqpx.jpeg\", \"http://img6a.flixcart.com/image/bra/m/g/h/utbra-8-pnk-tia-by-ten-on-ten-38a-original-imaeb2fwhteersbh.jpeg\", \"http://img5a.flixcart.com/image/bra/m/g/h/utbra-8-pnk-tia-by-ten-on-ten-38a-original-imaeb2fwyee4xzpt.jpeg\"]",
+        "product_url": "http://www.flipkart.com/tia-ten-siana-women-s-t-shirt-bra/p/itmeb2s8mymhzfcv?pid=BRAEB2S8ZUHV9YEA"
+      },
+      "sample_faiss_position": 27,
+      "sample_metadata": [
+        {
+          "product_id": "015b36dc0234a0a3ef68668e7cfc9c1c",
+          "name": "Tia by Ten on Ten Siana Women's T-Shirt Bra",
+          "category": "Clothing",
+          "description": "Tia by Ten on Ten Siana Women's T-Shirt Bra\n                         Price: Rs. 399\n\t\t\t\t\n\t\t\tGive your women spirit a boost by wearing this seamless push up bra brought to you from the house of Tia by Ten on Ten and feel the coziness of the cotton mix fibre as your skin is not only breathing easily but also looking sensuous.\nGive your women spirit a boost by wearing this seamless push up bra brought to you from the house of Tia by Ten on Ten and feel the coziness of the cotton mix fibre as your skin is not only breathing easily but also looking sensuous.",
+          "price": 399.0,
+          "image_url": "http://img6a.flixcart.com/image/bra/m/g/h/utbra-8-pnk-tia-by-ten-on-ten-38a-original-imaeb2fwyuh8gqpx.jpeg",
+          "rating": "",
+          "category_path": "Clothing > Women's Clothing > Lingerie, Sleep & Swimwear > Bras > Tia by Ten on Ten Bras",
+          "source_pid": "BRAEB2S8ZUHV9YEA",
+          "quality_flags": "",
+          "source_row_number": "2250"
+        }
+      ]
+    },
+    "4fcc6115656b061c0a97b358d230a0f9": {
+      "raw_index_zero_based": 7958,
+      "source_data_record_number_one_based": 7959,
+      "raw_fields": {
+        "uniq_id": "4fcc6115656b061c0a97b358d230a0f9",
+        "pid": "ACCEEV5V5VD5DR9C",
+        "product_name": "Radius Earbuds Radheadphones Hp-Rhf41P Headphones",
+        "description": "Specifications of Radius Earbuds Radheadphones Hp-Rhf41P Headphones (Multicolor) General Brand Radius Model ID Earbuds Radheadphones Hp-Rhf41P Color Multicolor",
+        "product_category_tree": "[\"Mobiles & Accessories >> Mobile Accessories >> Headphones >> Radius Headphones >> Radius Earbuds Radheadphones Hp-Rhf41P Headphone...\"]",
+        "discounted_price": "22630",
+        "image": "[\"http://img5a.flixcart.com/image/headphone/r/9/c/radius-earbuds-radheadphones-hp-rhf41p-1100x1100-imaeexb6hzk8etzc.jpeg\", \"http://img6a.flixcart.com/image/headphone/r/9/c/radius-earbuds-radheadphones-hp-rhf41p-original-imaeexb6hzk8etzc.jpeg\"]",
+        "product_url": "http://www.flipkart.com/radius-earbuds-radheadphones-hp-rhf41p-headphones/p/itmeev5vakp9aqmf?pid=ACCEEV5V5VD5DR9C"
+      },
+      "sample_faiss_position": 1537,
+      "sample_metadata": [
+        {
+          "product_id": "4fcc6115656b061c0a97b358d230a0f9",
+          "name": "Radius Earbuds Radheadphones Hp-Rhf41P Headphones",
+          "category": "Mobiles & Accessories",
+          "description": "Specifications of Radius Earbuds Radheadphones Hp-Rhf41P Headphones (Multicolor) General Brand Radius Model ID Earbuds Radheadphones Hp-Rhf41P Color Multicolor",
+          "price": 22630.0,
+          "image_url": "http://img5a.flixcart.com/image/headphone/r/9/c/radius-earbuds-radheadphones-hp-rhf41p-1100x1100-imaeexb6hzk8etzc.jpeg",
+          "rating": "",
+          "category_path": "Mobiles & Accessories > Mobile Accessories > Headphones > Radius Headphones > Radius Earbuds Radheadphones Hp-Rhf41P Headphone...",
+          "source_pid": "ACCEEV5V5VD5DR9C",
+          "quality_flags": "",
+          "source_row_number": "7959"
+        }
+      ]
+    }
+  }
+}

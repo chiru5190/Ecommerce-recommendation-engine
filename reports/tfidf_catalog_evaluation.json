@@ -1,0 +1,19 @@
+{
+  "catalog_size": 5000,
+  "top_k": 5,
+  "queries_evaluated": 5000,
+  "queries_with_results": 5000,
+  "recommendations_returned": 25000,
+  "unique_recommended_products": 4562,
+  "catalog_coverage": 0.9124,
+  "category_agreement_proxy": 0.86368,
+  "sanity_checks": {
+    "no_self_recommendations": true,
+    "unique_results": true,
+    "descending_scores": true,
+    "valid_scores": true,
+    "at_most_k": true,
+    "known_product_ids": true
+  },
+  "note": "Category agreement is a metadata proxy, not ground-truth Precision@K. Empty-catalog sanity checks are vacuous. No relevance labels are available."
+}

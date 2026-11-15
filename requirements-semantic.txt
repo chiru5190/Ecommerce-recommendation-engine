@@ -1,0 +1,7 @@
+# Optional CPU semantic/hybrid extension; install the baseline first.
+# Install torch from the CPU wheel index first (see README).
+torch==2.5.1
+sentence-transformers==3.3.1
+transformers==4.46.3
+huggingface-hub==0.26.2
+faiss-cpu==1.10.0
